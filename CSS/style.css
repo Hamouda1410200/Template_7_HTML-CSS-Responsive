@@ -1,0 +1,518 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bg-primary {
+    background-color: #0d6efd;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+}
+
+.bg-success {
+    background-color: #198754;
+}
+
+.bg-danger {
+    background-color: #dc3545;
+}
+
+.bg-warning {
+    background-color: #ffc107;
+}
+
+.bg-info {
+    background-color: #0dcaf0;
+}
+
+header {
+    background-image: url(../assets/img/header-bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+nav {
+    padding: 25px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container .logo img {
+    width: 60%;
+}
+
+nav .container .logo {
+    width: 25%;
+}
+
+nav .container .nav-menu {
+    width: 50%;
+}
+
+nav .container .nav-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .container .nav-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400 !important;
+}
+
+nav .container .nav-menu ul li a:hover {
+    color: #fed136;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .header-caption p {
+    font-size: 2.25rem;
+    font-style: italic;
+    color: white;
+    margin-bottom: 15px;
+}
+
+header .header-caption h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: white;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+header .header-caption button {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    color: white;
+    background-color: #ffc800;
+    border: #ffc800 1px solid;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+    color: #6c757d;
+}
+
+.service .container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service article {
+    width: 33.333%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.service article .icon {
+    width: 130px;
+    height: 130px;
+    background-color: #ffc800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+
+}
+
+.service article .icon i {
+    color: white;
+    font-size: 4rem;
+}
+
+.service article h3 {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.service article p {
+    font-size: 1rem;
+    font-style: normal;
+    color: #6c757d;
+    line-height: 1.5rem;
+}
+
+.port {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.port h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.port .head {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+    color: #6c757d;
+}
+
+.port .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.port .container article {
+    text-align: center;
+    width: 31%;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.port .container article figcaption {
+    padding: 20px;
+}
+
+.port .container article figcaption h3 {
+    font-size: 1.5rem;
+}
+
+.port .container article figcaption p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #6c757d;
+}
+
+.port .container article img {
+    width: 100%;
+}
+
+.port .container article figure .item {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.port .container article figure .item .cover {
+    background-color: rgba(255, 200, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.port .container article figure .item .cover i {
+    font-size: 4rem;
+    color: white;
+}
+
+.port .container article figure .item:hover .cover {
+    opacity: 1;
+}
+
+.about .about-caption {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about .about-caption h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about .about-caption .head {
+    font-size: 1rem;
+    font-style: italic;
+
+    color: #6c757d;
+}
+
+.about .container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.about .container article {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.about .container article .caption {
+    text-align: end;
+    width: 40%;
+    padding: 35px;
+}
+
+.about .container article .caption h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 5px;
+}
+
+.about .container article .caption p {
+    font-size: 1rem;
+    font-style: normal;
+    color: #6c757d;
+    line-height: 1.75rem;
+}
+
+.about .container article .image {
+    width: 14%;
+    margin-left: 5px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.about .container article .image img {
+    border-radius: 50%;
+    width: 100%;
+    border: #e9ecef 7px solid;
+}
+
+.team {
+    background-color: #f8f9fa;
+}
+
+.team .team-caption {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.team .team-caption h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.team .team-caption .head {
+    font-size: 1rem;
+    font-style: italic;
+
+    color: #6c757d;
+}
+
+.team .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team .container article {
+    width: 33.3333333%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team .container article img {
+    width: 50%;
+    border: 7px solid #dfe0e1;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team .container article h5 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.team .container article p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.team .container article .icon-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.team .container article .icon-panel .icon {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.team .container article .icon-panel .icon:hover {
+    background-color: #ffc800;
+}
+
+.team .container article .icon-panel .icon i {
+    color: white;
+}
+
+.contact {
+    background-color: #212529;
+    background-image: url(../assets/img/map-image.png);
+
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.contact .contact-caption {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact .contact-caption h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.contact .contact-caption .head {
+    font-size: 1rem;
+    font-style: italic;
+
+    color: #6c757d;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.contact form .left {
+    width: 50%;
+    padding: 10px;
+}
+
+.contact form .left input {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.contact form .right {
+    width: 50%;
+    padding: 10px;
+}
+
+.contact form .right textarea {
+    width: 100%;
+    padding: 25px;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.contact form ::placeholder {
+    color: #ced4da;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.contact  button 
+{
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    color: white;
+    background-color: #ffc800;
+    border: #ffc800 1px solid;
+    cursor: pointer;
+    margin: 15px;
+}
+footer   .icon-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+footer   .icon-panel .icon {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer   .icon-panel .icon:hover {
+    background-color: #ffc800;
+}
+
+footer   .icon-panel .icon i {
+    color: white;
+}

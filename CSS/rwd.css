@@ -1,0 +1,212 @@
+/* X large screens  */
+@media screen and (min-width:1200px) and (max-width:1399px) {}
+
+/*  large screens  */
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .service article {
+        padding: 0;
+    }
+
+    .about .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about .container article .image {
+        width: 20%;
+    }
+}
+
+/* Medium screens  */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    nav .container .nav-menu {
+        display: none;
+    }
+
+    nav .container .logo {
+        width: 25%;
+    }
+
+    nav .container .logo img {
+        width: 100%;
+    }
+
+    .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .service article {
+        padding: 0;
+    }
+
+    .port .container article {
+        width: 47%;
+    }
+
+    .about .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about .container article .image {
+        width: 25%;
+    }
+
+    .team .container article {
+        width: 100%;
+    }
+}
+
+/* Small screens  */
+@media screen and (min-width:567px) and (max-width:767px) {
+    nav .container .nav-menu {
+        display: none;
+    }
+
+    nav .container .logo {
+        width: 25%;
+    }
+
+    nav .container .logo img {
+        width: 100%;
+    }
+
+    header .header-caption p {
+        font-size: 1.5rem;
+        font-style: italic;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    header .header-caption h1 {
+        font-size: 3.25rem;
+        margin-bottom: 30px;
+    }
+
+    .service article {
+        width: 100%;
+    }
+
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .port .container article {
+        width: 46%;
+    }
+
+    .about .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about .container article .image {
+        width: 15%;
+    }
+
+    .about .container article .caption {
+        width: 85%;
+    }
+
+    .about {
+        width: 90%;
+    }
+    .team .container article {
+        width: 100%;
+    }
+    .contact form .left {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    
+    .contact form .right {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* X Small screens  */
+@media screen and (max-width:566px) {
+    nav .container {
+        padding: 0;
+    }
+
+    nav .container .nav-menu {
+        display: none;
+        width: 0;
+    }
+
+    nav .container .logo {
+        width: 25%;
+    }
+
+    nav .container .logo img {
+        width: 100%;
+    }
+
+    header .header-caption p {
+        font-size: 1.5rem;
+        font-style: italic;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    header .header-caption h1 {
+        font-size: 3.25rem;
+        margin-bottom: 25px;
+    }
+
+    .service article {
+        width: 100%;
+    }
+
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .port .container article {
+        width: 100%;
+    }
+
+    .about .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .about .container article .image {
+        width: 20%;
+    }
+
+    .about .container article .caption {
+        width: 80%;
+        padding: 5px;
+    }
+
+    .about {
+        width: 90%;
+    }
+    .team .container article {
+        width: 100%;
+    }
+    .contact form .left {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    
+    .contact form .right {
+        width: 100%;
+        padding: 10px;
+    }
+}
